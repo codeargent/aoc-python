@@ -2,7 +2,7 @@ def main():
     with open("input2.txt", "r") as file:
         content = file.read().split()
 
-        print(sum(blink(rock, 3) for rock in content))
+        print(sum(blink(rock, 75) for rock in content))
 
 Results = {}
 def blink(rock, counter):
